@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Tattoo Artist Website</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Mono&family=Italiana&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="noise"></div>
+
+  <header class="nav">
+    <a class="logo" href="#home">
+      YOUR STUDIO
+      <small>CUSTOM TATTOO ART</small>
+    </a>
+
+    <button class="menu-button" aria-label="Open navigation">MENU</button>
+
+    <nav class="nav-links">
+      <a href="#work">Work</a>
+      <a href="#about">About</a>
+      <a href="#booking">Booking</a>
+    </nav>
+  </header>
+
+  <!-- Replace # with the artist's actual social-profile links -->
+  <aside class="social-rail" aria-label="Social media">
+    <span>FOLLOW</span>
+
+    <a href="#" target="_blank" aria-label="Instagram">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <rect x="3" y="3" width="18" height="18" rx="5"></rect>
+        <circle cx="12" cy="12" r="4"></circle>
+        <circle cx="17.5" cy="6.5" r="1"></circle>
+      </svg>
+    </a>
+
+    <a href="#" target="_blank" aria-label="TikTok">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M14 3v11.4a4.6 4.6 0 1 1-3.6-4.5"></path>
+        <path d="M14 3c.8 2.8 2.5 4.4 5 4.8"></path>
+      </svg>
+    </a>
+
+    <a href="#" target="_blank" aria-label="Pinterest">
+      <svg viewBox="0 0 24 24" aria-hidden="true">
+        <path d="M12 21a9 9 0 1 0-3.1-17.4"></path>
+        <path d="M9.4 21c1-2.6 1.5-4.1 1.8-5.5"></path>
+        <path d="M11.2 14.6c.8 1.1 2 1.5 3.1 1.2 2.2-.6 3-4.8 1.5-6.4-1.4-1.5-4.6-1.3-5.8.5-.7 1.1-.8 2.7 0 3.5"></path>
+      </svg>
+    </a>
+  </aside>
+
+  <main id="home">
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">YOUR CITY <span></span> CUSTOM ART</p>
+
+        <h1>
+          <em>Stories</em><br>
+          in <strong>ink.</strong>
+        </h1>
+
+        <p class="intro">
+          Original tattoos, made with intention. Every piece is custom-designed
+          to become part of your story.
+        </p>
+
+        <a class="circle-button" href="#booking">
+          START A<br>PROJECT <b>↗</b>
+        </a>
+      </div>
+
+      <div class="sigil-art" aria-hidden="true">
+        <div class="rings"></div>
+        <div class="star">✦</div>
+        <p>ART / SKIN / STORY</p>
+      </div>
+
+      <p class="scroll">↓ SCROLL TO ENTER</p>
+    </section>
+
+    <section class="marquee">
+      <div>
+        BLACKWORK ✦ FINE LINE ✦ ORNAMENTAL ✦ CUSTOM DESIGN ✦
+        BLACKWORK ✦ FINE LINE ✦ ORNAMENTAL ✦ CUSTOM DESIGN ✦
+      </div>
+    </section>
+
+    <section class="section work" id="work">
+      <div class="section-label">
+        <p>SELECTED WORK</p>
+        <p>PORTFOLIO</p>
+      </div>
+
+      <h2>Made to<br><em>remain.</em></h2>
+
+      <div class="gallery">
+        <button class="card large"
+          data-title="Custom ornamental work"
+          data-type="FEATURED PIECE">
+          <img src="https://images.unsplash.com/photo-1598371839696-5c5bb00bdc28?auto=format&fit=crop&w=1000&q=85" alt="Tattoo portfolio example">
+          <span>01 <b>VIEW ↗</b></span>
+        </button>
+
+        <button class="card"
+          data-title="Fine line detail"
+          data-type="CUSTOM DESIGN">
+          <img src="https://images.unsplash.com/photo-1565058379802-bbe93b2f703e?auto=format&fit=crop&w=800&q=85" alt="Tattoo portfolio example">
+          <span>02 <b>VIEW ↗</b></span>
+        </button>
+
+        <div class="quote">
+          YOUR SKIN.<br>YOUR STORY.<br><em>YOUR ART.</em>
+        </div>
+
+        <button class="card"
+          data-title="Blackwork composition"
+          data-type="CUSTOM DESIGN">
+          <img src="https://images.unsplash.com/photo-1611501275019-9b5cda994e8d?auto=format&fit=crop&w=1000&q=85" alt="Tattoo portfolio example">
+          <span>03 <b>VIEW ↗</b></span>
+        </button>
+      </div>
+    </section>
+
+    <section class="about" id="about">
+      <div class="about-image">
+        <img src="https://images.unsplash.com/photo-1542726038-962f5a7f51d3?auto=format&fit=crop&w=1000&q=85" alt="Tattoo artist working">
+        <div class="seal">CUSTOM<br>TATTOO<br>STUDIO</div>
+      </div>
+
+      <div class="about-copy">
+        <p class="eyebrow">ABOUT THE ARTIST</p>
+        <h2>Art with<br><em>intention.</em></h2>
+        <p>
+          Every tattoo begins with a conversation. Bring an idea, memory,
+          symbol, or feeling — then turn it into something completely your own.
+        </p>
+        <a href="#booking">LEARN MORE ↗</a>
+      </div>
+    </section>
+
+    <section class="booking" id="booking">
+      <div class="glow"></div>
+
+      <p class="eyebrow">BOOKINGS NOW OPEN</p>
+      <h2>Bring your<br><em>wild idea.</em></h2>
+
+      <p>
+        Share your concept, placement, and approximate size. You’ll receive
+        the next steps for creating your custom tattoo.
+      </p>
+
+      <a class="booking-button" href="mailto:your@email.com">
+        BEGIN YOUR INQUIRY ↗
+      </a>
+    </section>
+  </main>
+
+  <footer>
+    <p>© YOUR STUDIO</p>
+    <p>CUSTOM TATTOO</p>
+  </footer>
+
+  <dialog id="lightbox">
+    <button id="close-lightbox" aria-label="Close">×</button>
+    <img id="lightbox-image" src="" alt="">
+    <p id="lightbox-type"></p>
+    <h3 id="lightbox-title"></h3>
+  </dialog>
+
+  <script src="script.js"></script>
+</body>
+</html>
